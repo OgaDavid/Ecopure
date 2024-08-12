@@ -35,7 +35,7 @@ export default function LandingPage() {
               </Button>
             </Link>
             <Image
-              src="/static/images/cleaning-services.png"
+              src="/images/cleaning-services.png"
               alt="Hero"
               width={1000}
               height={406}
@@ -67,7 +67,7 @@ export default function LandingPage() {
             </Button>
           </div>
           <Image
-            src="/static/images/cleaning-services.png"
+            src="/images/cleaning-services.png"
             alt="hero"
             width={2120}
             height={1192}
@@ -100,7 +100,7 @@ export default function LandingPage() {
               </p>
             </div>
             <Image
-              src="/static/images/man-cleaning-table.jpg"
+              src="/images/man-cleaning-table.jpg"
               alt="image"
               width={600}
               height={224}
@@ -123,7 +123,7 @@ export default function LandingPage() {
               </p>
             </div>
             <Image
-              src="/static/images/smiling-man.jpg"
+              src="/images/smiling-man.jpg"
               alt="image"
               width={600}
               height={224}
@@ -174,7 +174,7 @@ export default function LandingPage() {
             </div>
           </div>
           <Image
-            src="/static/images/contact.jpeg"
+            src="/images/contact.jpeg"
             width={626}
             height={626}
             alt="contact"
