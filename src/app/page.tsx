@@ -130,7 +130,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="equipments" className="pt-36 px-16">
+      <section id="equipments" className="pt-36 px-6 md:px-16">
         <div className="flex items-center flex-col  gap-2 text-center">
           <h2 className="text-4xl md:text-6xl font-bold">
             Explore Our Equipments
@@ -145,13 +145,15 @@ export default function LandingPage() {
       </section>
 
       <section id="contact" className="pt-40 px-16">
-        <div className="flex items-center flex-col  gap-2 text-center">
-          <h2 className="text-4xl md:text-6xl font-bold">Contact Us</h2>
+        <div className="flex items-center justify-center text-center">
+          <h2 className="text-4xl flex items-center gap-1 justify-center md:text-6xl font-bold text-center">
+            Contact Us <Sparkles size={28} className="text-[#6ECA31]" />
+          </h2>
         </div>
-        <div className="flex items-center justify-between">
-          <div className="">
-            <h3 className="text-4xl font-bold">Get In Touch</h3>
-            <p className="max-w-[450px] pt-8">
+        <div className="flex max-md:flex-col items-center justify-between">
+          <div className="max-md:mt-10">
+            <h3 className="text-2xl md:text-4xl font-bold">Get In Touch</h3>
+            <p className="max-w-[450px] pt-4 md:pt-8">
               Have questions or need more information? Our dedicated team is
               here to help. Reach out to us via the contact form or directly
               through our email and phone.
@@ -173,7 +175,7 @@ export default function LandingPage() {
             width={626}
             height={626}
             alt="contact"
-            className="rounded-[16px] w-[500px]"
+            className="rounded-[16px] w-[500px] max-md:mt-6"
           />
         </div>
       </section>
