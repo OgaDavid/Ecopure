@@ -1,6 +1,7 @@
 import { EquipmentsTab } from "@/components/EquipmentsTab";
+import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Sparkles } from "lucide-react";
+import { Mail, Phone, Sparkles } from "lucide-react";
 import Image from "next/image";
 
 export default function LandingPage() {
@@ -143,11 +144,43 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="mt-16">
-        <div>
-          <h2>Contact Us</h2>
+      <section id="contact" className="pt-40 px-16">
+        <div className="flex items-center flex-col  gap-2 text-center">
+          <h2 className="text-4xl md:text-6xl font-bold">Contact Us</h2>
+        </div>
+        <div className="flex items-center justify-between">
+          <div className="">
+            <h3 className="text-4xl font-bold">Get In Touch</h3>
+            <p className="max-w-[450px] pt-8">
+              Have questions or need more information? Our dedicated team is
+              here to help. Reach out to us via the contact form or directly
+              through our email and phone.
+            </p>
+            <div className="mt-12 font-medium text-xl">
+              <p className="flex gap-2 items-center">
+                <Mail width={24} height={24} className="text-[#6ECA31]" />
+                Email: <span className="text-[#6ECA31]">info@ecopure.com</span>
+              </p>
+              <br />
+              <p className="flex gap-2 items-center">
+                <Phone width={24} height={24} className="text-[#6ECA31]" />
+                Phone: <span className="text-[#6ECA31]">+1 800 123 4567</span>
+              </p>
+            </div>
+          </div>
+          <Image
+            src="/images/contact.jpeg"
+            width={626}
+            height={626}
+            alt="contact"
+            className="rounded-[16px] w-[500px]"
+          />
         </div>
       </section>
+
+      <footer className="mt-24">
+        <Footer />
+      </footer>
     </main>
   );
 }
