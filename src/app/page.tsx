@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Sparkles } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function LandingPage() {
   return (
@@ -24,15 +25,17 @@ export default function LandingPage() {
               We provide state-of-the-art cleaning solutions and equipment
               tailored to the demands of various industries.
             </p>
-            <Button className="bg-[#6ECA31] mt-4 transition-all duration-500 ease-in-out group flex gap-2 px-8 rounded-lg hover:bg-[#4D4D4D] py-6 text-lg font-semibold">
-              Explore Our Solutions
-              <Sparkles
-                className="group-hover:rotate-90 transition-all duration-500 ease-in-out"
-                size={24}
-              />
-            </Button>
+            <Link href="#equipments">
+              <Button className="bg-[#6ECA31] mt-4 transition-all duration-500 ease-in-out group flex gap-2 px-8 rounded-lg hover:bg-[#4D4D4D] py-6 text-lg font-semibold">
+                Explore Our Solutions
+                <Sparkles
+                  className="group-hover:rotate-90 transition-all duration-500 ease-in-out"
+                  size={24}
+                />
+              </Button>
+            </Link>
             <Image
-              src="/images/cleaning-services.png"
+              src="/static/images/cleaning-services.png"
               alt="Hero"
               width={1000}
               height={406}
@@ -64,7 +67,7 @@ export default function LandingPage() {
             </Button>
           </div>
           <Image
-            src="/images/cleaning-services.png"
+            src="/static/images/cleaning-services.png"
             alt="hero"
             width={2120}
             height={1192}
@@ -97,7 +100,7 @@ export default function LandingPage() {
               </p>
             </div>
             <Image
-              src="/images/man-cleaning-table.jpg"
+              src="/static/images/man-cleaning-table.jpg"
               alt="image"
               width={600}
               height={224}
@@ -120,7 +123,7 @@ export default function LandingPage() {
               </p>
             </div>
             <Image
-              src="/images/smiling-man.jpg"
+              src="/static/images/smiling-man.jpg"
               alt="image"
               width={600}
               height={224}
@@ -171,7 +174,7 @@ export default function LandingPage() {
             </div>
           </div>
           <Image
-            src="/images/contact.jpeg"
+            src="/static/images/contact.jpeg"
             width={626}
             height={626}
             alt="contact"

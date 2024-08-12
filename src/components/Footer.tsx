@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="flex items-center text-center flex-col justify-between">
           <Image
             className="w-[230px]"
-            src="/images/logo.svg"
+            src="/static/images/logo.svg"
             alt="logo"
             width={164}
             height={47}
