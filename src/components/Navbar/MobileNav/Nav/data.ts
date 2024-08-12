@@ -1,7 +1,7 @@
 export const links = [
   {
     title: "About Us",
-    href: "#about-us",
+    href: "#about",
   },
   {
     title: "Equipments",
