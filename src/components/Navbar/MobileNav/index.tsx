@@ -38,7 +38,16 @@ export default function MobileNav() {
         animate={isActive ? "open" : "closed"}
         initial="closed"
       >
-        <AnimatePresence>{isActive && <Nav />}</AnimatePresence>
+        <AnimatePresence>
+          {isActive && (
+            <Nav
+              isActive={isActive}
+              toggleMenu={() => {
+                setIsActive(!isActive);
+              }}
+            />
+          )}
+        </AnimatePresence>
       </motion.div>
       <Button
         isActive={isActive}

@@ -5,6 +5,7 @@
   padding: 80px 40px 50px 40px;
   height: 100%;
   box-sizing: border-box;
+  z-index: 9999999999999999999;
   @media screen and (max-width: 640px) {
     padding: 80px 20px 20px 100px;
   }
@@ -12,14 +13,18 @@
     display: flex;
     gap: 10px;
     flex-direction: column;
+    z-index: 9999999999999999999;
+
     .linkContainer {
       perspective: 120px;
       perspective-origin: bottom;
+      z-index: 9999999999999999999;
     }
     a {
       text-decoration: none;
       color: black;
       font-size: 46px;
+      z-index: 9999999999999999999;
     }
   }
   .footer {

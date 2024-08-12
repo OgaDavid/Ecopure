@@ -133,7 +133,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="equipments" className="pt-36 px-6 md:px-16">
+      <section id="equipments" className="pt-36 -z-10 px-6 md:px-16">
         <div className="flex items-center flex-col  gap-2 text-center">
           <h2 className="text-4xl md:text-6xl font-bold">
             Explore Our Equipments
