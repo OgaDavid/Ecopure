@@ -1,9 +1,13 @@
-import Image from "next/image";
-
-export default function Home() {
+export default function LandingPage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Ecopure
+    <main>
+      {/* Home Section */}
+      <div className="px-10 rounded-[16px]">
+        <div>
+          <h1>Home</h1>
+          <p>Welcome to our website</p>
+        </div>
+      </div>
     </main>
   );
 }
