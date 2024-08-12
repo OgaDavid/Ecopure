@@ -11,13 +11,13 @@ const Navbar = () => {
       <div className="relative flex items-center justify-between">
         <Image
           className="max-sm:hidden w-[230px]"
-          src="/static/images/logo.svg"
+          src="/images/logo.svg"
           alt="logo"
           width={164}
           height={47}
         />
         <Image
-          src={"/static/images/logo-small.svg"}
+          src={"/images/logo-small.svg"}
           alt="logo"
           width={85}
           height={26}
