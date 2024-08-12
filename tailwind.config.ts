@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       backgroundImage: {
-        "hero-background": "url('/images/hero.png')",
+        "hero-background": "url('/images/cleaning-service.jpeg')",
       },
       colors: {
         border: "hsl(var(--border))",
