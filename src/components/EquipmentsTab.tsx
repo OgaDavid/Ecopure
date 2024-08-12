@@ -14,7 +14,7 @@ export function EquipmentsTab() {
             High-efficiency vacuums designed for heavy-duty use in various
             environments.{" "}
           </p>
-          <DummyContent img="/static/images/industrial-vacuum.jpeg" />
+          <DummyContent img="/images/industrial-vacuum.jpeg" />
         </div>
       ),
     },
@@ -27,7 +27,7 @@ export function EquipmentsTab() {
             Innovative scrubbing systems that leave floors spotless and
             sanitized.
           </p>
-          <DummyContent img="/static/images/floor-scrubbers.png" />
+          <DummyContent img="/images/floor-scrubbers.png" />
         </div>
       ),
     },
@@ -39,7 +39,7 @@ export function EquipmentsTab() {
           <p>
             Powerful machines for deep cleaning outdoor areas and surfaces.{" "}
           </p>
-          <DummyContent img="/static/images/pressure-washer.jpg" />
+          <DummyContent img="/images/pressure-washer.jpg" />
         </div>
       ),
     },
@@ -52,7 +52,7 @@ export function EquipmentsTab() {
             Equipment specifically designed for thorough disinfecting in
             healthcare and commercial settings.{" "}
           </p>
-          <DummyContent img="/static/images/disinfecting-solutions.jpeg" />
+          <DummyContent img="/images/disinfecting-solutions.jpeg" />
         </div>
       ),
     },
