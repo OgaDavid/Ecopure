@@ -9,15 +9,11 @@ export const links = [
   },
   {
     title: "Initiatives",
-    href: "#initiatives",
+    href: "#equipments",
   },
   {
     title: "Contact Us",
     href: "#contact",
-  },
-  {
-    title: "Contact",
-    href: "/",
   },
 ];
 

@@ -2,8 +2,15 @@ import styles from "./style.module.scss";
 import { motion } from "framer-motion";
 import { links, footerLinks } from "./data";
 import { perspective, slideIn } from "./anim";
+import Link from "next/link";
 
-export default function index() {
+export default function index({
+  isActive,
+  toggleMenu,
+}: {
+  isActive: boolean;
+  toggleMenu: () => void;
+}) {
   return (
     <div className={styles.nav}>
       <div className={styles.body}>
@@ -19,7 +26,9 @@ export default function index() {
                 animate="enter"
                 exit="exit"
               >
-                <a>{title}</a>
+                <Link onClick={toggleMenu} href={href}>
+                  {title}
+                </Link>
               </motion.div>
             </div>
           );
