@@ -14,12 +14,12 @@ export default function LandingPage() {
         <div className="min-[630px]:hidden object-cover object-left-bottom flex items-center pt-8 text-center justify-center">
           <div className="w-[600px] flex flex-col items-center px-16">
             <p className="border-2 mb-2 rounded-full border-[#6ECA31] p-2 text-xs font-medium">
-              Clean. Sustainable. Powerful.
+              Clean. Sustainable. Powerful
             </p>
             <h1 className="text-3xl font-bold">
               Innovative Cleaning{" "}
               <span className="text-[#6ECA31]">Solutions </span>for a
-              Sustainable Future.
+              Sustainable Future
             </h1>
             <p className="pt-4 text-sm font-medium">
               We provide state-of-the-art cleaning solutions and equipment
@@ -47,24 +47,26 @@ export default function LandingPage() {
         <div className="max-[630px]:hidden max-[1100px]:mx-6 mx-[70px] h-[430px] flex items-center rounded-[16px] bg-hero-background">
           <div className="w-[600px] px-16">
             <p className="pb-1 text-xs font-medium">
-              Clean. Sustainable. Powerful.
+              Clean. Sustainable. Powerful
             </p>
             <h1 className="max-[1024px]:text-3xl text-5xl leading-[53px] font-bold">
               Innovative Cleaning{" "}
               <span className="text-[#6ECA31]">Solutions </span>for a
-              Sustainable Future.
+              Sustainable Future
             </h1>
             <p className="pt-4 font-medium">
               We provide state-of-the-art cleaning solutions and equipment
               tailored to the demands of various industries.
             </p>
-            <Button className="bg-[#6ECA31] mt-4 transition-all duration-500 ease-in-out group flex gap-2 px-8 rounded-lg hover:bg-[#4D4D4D] py-6 text-lg font-semibold">
-              Explore Our Solutions
-              <Sparkles
-                className="group-hover:rotate-90 transition-all duration-500 ease-in-out"
-                size={24}
-              />
-            </Button>
+            <Link href="#equipments">
+              <Button className="bg-[#6ECA31] mt-4 transition-all duration-500 ease-in-out group flex gap-2 px-8 rounded-lg hover:bg-[#4D4D4D] py-6 text-lg font-semibold">
+                Explore Our Solutions
+                <Sparkles
+                  className="group-hover:rotate-90 transition-all duration-500 ease-in-out"
+                  size={24}
+                />
+              </Button>
+            </Link>
           </div>
           <Image
             src="/images/cleaning-services.png"
@@ -157,9 +159,11 @@ export default function LandingPage() {
           <div className="max-md:mt-10">
             <h3 className="text-2xl md:text-4xl font-bold">Get In Touch</h3>
             <p className="max-w-[450px] pt-4 md:pt-8">
-              Have questions or need more information? Our dedicated team is
-              here to help. Reach out to us via the contact form or directly
-              through our email and phone.
+              Have questions or need more information?
+              <br />
+              <br />
+              Our dedicated team is here to help. Reach out to us via the
+              contact form or directly through our email and phone.
             </p>
             <div className="mt-12 font-medium text-xl">
               <p className="flex gap-2 items-center">
