@@ -24,9 +24,9 @@ const NavList = () => {
       <li>
         <NavItem label="Equipments" link="#equipments" />
       </li>
-      <li>
+      {/* <li>
         <NavItem label="Initiatives" link="#initiatives" />
-      </li>
+      </li> */}
       <li>
         <NavItem label="Contact us" link="#contact" />
       </li>

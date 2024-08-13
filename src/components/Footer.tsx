@@ -22,8 +22,8 @@ export default function Footer() {
           />
           <p className="text-sm md:text-2xl w-3/4 ml-8">
             Trust Ecopure to provide innovative cleaning solutions that meet
-            your needs and align. Together, we can create cleaner, safer
-            environments while preserving our planet. with your values.
+            your needs and align together, we can create cleaner, safer
+            environments while preserving our planet with your values.
           </p>
         </div>
       </div>
