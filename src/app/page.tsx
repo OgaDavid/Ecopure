@@ -46,9 +46,6 @@ export default function LandingPage() {
         {/* Desktop */}
         <div className="max-[630px]:hidden max-[1100px]:mx-6 mx-[70px] h-[430px] flex items-center rounded-[16px] bg-hero-background">
           <div className="w-[600px] px-16">
-            <p className="pb-1 text-[#6ECA31] text-xs font-medium">
-              Clean. Sustainable. Powerful
-            </p>
             <h1 className="max-[1024px]:text-3xl text-5xl leading-[53px] font-bold">
               Innovative Cleaning{" "}
               <span className="text-[#6ECA31]">Solutions </span>for a
