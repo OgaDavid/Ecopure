@@ -14,7 +14,7 @@ export default function Footer() {
             width={164}
             height={47}
           />
-          <p className="text-sm md:text-2xl w-3/4 ml-8">
+          <p className="text-sm md:text-2xl mb-20 w-3/4 ml-8">
             Trust Ecopure to provide innovative cleaning solutions that meet
             your needs and align together, we can create cleaner, safer
             environments while preserving our planet with your values.
