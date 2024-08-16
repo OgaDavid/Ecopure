@@ -6,6 +6,7 @@ const nextConfig = {
       "https://ecopure.netlify.app",
       "https://ecopure.vercel.app",
       "res.cloudinary.com",
+      "utfs.io",
     ],
   },
 };

@@ -101,7 +101,7 @@ export default function LandingPage() {
               </p>
             </div>
             <Image
-              src="https://res.cloudinary.com/dvsazgp6m/image/upload/v1723804270/man-cleaning-table_aj4voh.jpg"
+              src="https://utfs.io/f/6b6dedab-7f01-4ca1-aeec-344552ecb065-u7jqa5.jpg"
               alt="image"
               width={600}
               height={224}
@@ -124,7 +124,7 @@ export default function LandingPage() {
               </p>
             </div>
             <Image
-              src="https://res.cloudinary.com/dvsazgp6m/image/upload/v1723802862/smiling-man_ftqd8g.jpg"
+              src="https://utfs.io/f/07a0bec8-620e-4aa1-bcdf-8fad443f3f0e-ubm3y.jpg"
               alt="image"
               width={600}
               height={224}
