@@ -1,6 +1,8 @@
+import { ContactForm } from "@/components/ContactForm";
 import { EquipmentsTab } from "@/components/EquipmentsTab";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Textarea } from "@/components/ui/text-area";
 import { Mail, Phone, Sparkles } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -146,13 +148,13 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="contact" className="pt-40 px-16">
+      <section id="contact" className="pt-40 md:px-16">
         <div className="flex items-center justify-center text-center">
           <h2 className="text-4xl flex items-center gap-1 justify-center md:text-6xl font-bold text-center">
             Contact Us <Sparkles size={28} className="text-[#6ECA31]" />
           </h2>
         </div>
-        <div className="flex max-md:flex-col items-center justify-between">
+        <div className="flex max-md:flex-col mt-10 md:mt-20 mx-10 items-center justify-between">
           <div className="max-md:mt-10">
             <h3 className="text-2xl md:text-4xl font-bold">Get In Touch</h3>
             <p className="max-w-[450px] pt-4 md:pt-8">
@@ -174,17 +176,13 @@ export default function LandingPage() {
               </p>
             </div>
           </div>
-          <Image
-            src="/images/contact.jpeg"
-            width={626}
-            height={626}
-            alt="contact"
-            className="rounded-[16px] w-[500px] max-md:mt-6"
-          />
+          <div className="max-md:mt-16 w-full max-w-[500px]">
+            <ContactForm />
+          </div>
         </div>
       </section>
 
-      <footer className="mt-24">
+      <footer className="mt-32">
         <Footer />
       </footer>
     </main>
