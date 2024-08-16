@@ -52,6 +52,8 @@ export function ContactForm() {
           "bg-[#6ECA31] text-white px-8 py-2 rounded-lg font-semibold",
       },
     });
+
+    form.reset();
   }
 
   return (
