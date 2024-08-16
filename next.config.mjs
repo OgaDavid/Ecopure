@@ -2,7 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["https://ecopure.netlify.app", "https://ecopure.vercel.app"],
+    domains: [
+      "https://ecopure.netlify.app",
+      "https://ecopure.vercel.app",
+      "res.cloudinary.com",
+    ],
   },
 };
 

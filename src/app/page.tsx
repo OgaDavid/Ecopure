@@ -37,7 +37,7 @@ export default function LandingPage() {
               </Button>
             </Link>
             <Image
-              src="/images/cleaning-services.png"
+              src="https://res.cloudinary.com/dvsazgp6m/image/upload/v1723803625/cleaning-services_at4scv.png"
               alt="Hero"
               width={1000}
               height={406}
@@ -68,7 +68,7 @@ export default function LandingPage() {
             </Link>
           </div>
           <Image
-            src="/images/cleaning-services.png"
+            src="https://res.cloudinary.com/dvsazgp6m/image/upload/v1723803625/cleaning-services_at4scv.png"
             alt="hero"
             width={2120}
             height={1192}
@@ -101,7 +101,7 @@ export default function LandingPage() {
               </p>
             </div>
             <Image
-              src="/images/man-cleaning-table.jpg"
+              src="https://res.cloudinary.com/dvsazgp6m/image/upload/v1723804270/man-cleaning-table_aj4voh.jpg"
               alt="image"
               width={600}
               height={224}
@@ -124,7 +124,7 @@ export default function LandingPage() {
               </p>
             </div>
             <Image
-              src="/images/smiling-man.jpg"
+              src="https://res.cloudinary.com/dvsazgp6m/image/upload/v1723802862/smiling-man_ftqd8g.jpg"
               alt="image"
               width={600}
               height={224}

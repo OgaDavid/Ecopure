@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="relative flex items-center justify-between">
         <Image
           className="w-32 md:w-[230px]"
-          src="/images/logo.svg"
+          src="https://res.cloudinary.com/dvsazgp6m/image/upload/v1723802452/Logo_wpvxug.svg"
           alt="logo"
           width={164}
           height={47}
